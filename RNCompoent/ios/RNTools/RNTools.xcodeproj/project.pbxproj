@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259232DF1F6FF10C002AF400 /* FlashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 259232DE1F6FF10C002AF400 /* FlashView.m */; };
+		259232E21F6FF1AE002AF400 /* NativeFlashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 259232E11F6FF1AE002AF400 /* NativeFlashView.m */; };
+		25DD495C1F6BA93C00FC06FC /* RNTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD495B1F6BA93C00FC06FC /* RNTools.m */; };
+		25DD495D1F6BA93C00FC06FC /* RNTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25DD495A1F6BA93C00FC06FC /* RNTools.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25DD49551F6BA93C00FC06FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				25DD495D1F6BA93C00FC06FC /* RNTools.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		259232DD1F6FF10C002AF400 /* FlashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashView.h; sourceTree = "<group>"; };
+		259232DE1F6FF10C002AF400 /* FlashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashView.m; sourceTree = "<group>"; };
+		259232E01F6FF1AE002AF400 /* NativeFlashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeFlashView.h; sourceTree = "<group>"; };
+		259232E11F6FF1AE002AF400 /* NativeFlashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeFlashView.m; sourceTree = "<group>"; };
+		25DD49571F6BA93C00FC06FC /* libRNTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DD495A1F6BA93C00FC06FC /* RNTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTools.h; sourceTree = "<group>"; };
+		25DD495B1F6BA93C00FC06FC /* RNTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DD49541F6BA93C00FC06FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DD494E1F6BA93C00FC06FC = {
+			isa = PBXGroup;
+			children = (
+				25DD49591F6BA93C00FC06FC /* RNTools */,
+				25DD49581F6BA93C00FC06FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DD49581F6BA93C00FC06FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DD49571F6BA93C00FC06FC /* libRNTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DD49591F6BA93C00FC06FC /* RNTools */ = {
+			isa = PBXGroup;
+			children = (
+				25DD495A1F6BA93C00FC06FC /* RNTools.h */,
+				25DD495B1F6BA93C00FC06FC /* RNTools.m */,
+				259232DD1F6FF10C002AF400 /* FlashView.h */,
+				259232DE1F6FF10C002AF400 /* FlashView.m */,
+				259232E01F6FF1AE002AF400 /* NativeFlashView.h */,
+				259232E11F6FF1AE002AF400 /* NativeFlashView.m */,
+			);
+			path = RNTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DD49561F6BA93C00FC06FC /* RNTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DD49601F6BA93C00FC06FC /* Build configuration list for PBXNativeTarget "RNTools" */;
+			buildPhases = (
+				25DD49531F6BA93C00FC06FC /* Sources */,
+				25DD49541F6BA93C00FC06FC /* Frameworks */,
+				25DD49551F6BA93C00FC06FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNTools;
+			productName = RNTools;
+			productReference = 25DD49571F6BA93C00FC06FC /* libRNTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DD494F1F6BA93C00FC06FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jaki;
+				TargetAttributes = {
+					25DD49561F6BA93C00FC06FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKUF38R4M7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25DD49521F6BA93C00FC06FC /* Build configuration list for PBXProject "RNTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25DD494E1F6BA93C00FC06FC;
+			productRefGroup = 25DD49581F6BA93C00FC06FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DD49561F6BA93C00FC06FC /* RNTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DD49531F6BA93C00FC06FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259232E21F6FF1AE002AF400 /* NativeFlashView.m in Sources */,
+				25DD495C1F6BA93C00FC06FC /* RNTools.m in Sources */,
+				259232DF1F6FF10C002AF400 /* FlashView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25DD495E1F6BA93C00FC06FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25DD495F1F6BA93C00FC06FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25DD49611F6BA93C00FC06FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CKUF38R4M7;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		25DD49621F6BA93C00FC06FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CKUF38R4M7;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DD49521F6BA93C00FC06FC /* Build configuration list for PBXProject "RNTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DD495E1F6BA93C00FC06FC /* Debug */,
+				25DD495F1F6BA93C00FC06FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DD49601F6BA93C00FC06FC /* Build configuration list for PBXNativeTarget "RNTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DD49611F6BA93C00FC06FC /* Debug */,
+				25DD49621F6BA93C00FC06FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DD494F1F6BA93C00FC06FC /* Project object */;
+}
